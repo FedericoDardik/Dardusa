@@ -1,0 +1,478 @@
+@media screen and (max-width: 1000px) {
+
+    * {
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        scroll-behavior: smooth;
+      }
+    /* ------------------------------------------------------------------------------------------------- */
+    html, body {
+        height: 100%;
+        user-select: none;
+    }
+    /* ------------------------------------------- HEADER ---------------------------------------------- */  
+    .header {
+        height: 30vw;
+        background-color: #2C3E50;
+        color: white;
+        box-shadow: 0vw 0vw 2vw black;
+        text-align: center;
+    }
+
+    .header h1 {
+        margin: auto;
+        font-size: 6vw;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 5vw;
+        padding-bottom: 1.5vw;
+        width: 40%;
+        margin-bottom: 3.5vw;
+        border-bottom: 0.5vw solid white;
+    }
+
+    .header-ul {
+        display: inline-block;
+    }
+
+    .header-ul li {
+        display: inline-block;
+        padding: 0.5vw 4vw;
+        padding-bottom: 1vw;
+        margin: 0vw 4vw;
+        border: 0.5vw solid white;
+        border-radius: 4vw;
+        }
+
+    .header-links {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 3vw;
+    }
+
+    .header-links:visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    .header-links:hover {
+        text-decoration: underline;
+    }
+/* ----------------------------------------- SECTION --------------------------------------------- */
+
+    .section {
+        width: 100%;
+        height: 430vw;
+        background-color: #DAF7A6;
+        color: black;
+        letter-spacing: 0.1vw;
+    }
+
+/*--------------------------------- ARTICLE-1 -------------------------------------- */
+
+    .article-1 {
+        width: 100%;
+        height: 100vw;
+        text-align: center;
+        padding-top: 3vw;
+    }
+
+/*----------------- ARTICLE-1-TOP -------------------- */
+
+    .article-1-left-h2 {
+        font-size: 5vw;
+        font-weight: 800;
+        padding: 1vw;
+        position: absolute;
+        left: -100vw;
+    }
+
+    .article-1-left-h3 {
+        width: 40%;
+        font-size: 5vw;
+        font-weight: 500;
+        position: relative;
+        top: 38vw;
+        left: 5vw;
+    }
+
+    .ambar {
+        width: 30vw;
+        height: auto;
+        margin: auto;
+        position: absolute;
+        left: -100vw;
+    }
+
+/*----------------- ARTICLE-1-BOTTOM -------------------- */
+   
+    .yo-apoyado {
+        width: 60vw;
+        height: auto;
+        position: absolute;
+        top: 90vw;
+        left: -10vw;
+        rotate: -5deg;
+        z-index: 1000;
+        }
+
+    .art-1-right-ul {
+        list-style: none;
+    }
+
+/*------------- ICON-SOCIALMEDIA-INITIAL --------------- */
+
+    .icon-socialmedia {
+        position: absolute;
+        top: 35vw;
+        left: 8vw;
+    }
+
+    .icon-socialmedia-ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 35vw;
+        height: 30vw;
+        margin-top: 3vw;
+    }
+
+    .icon-socialmedia-ul li {
+        display: inline-block;
+    }
+
+    .icon-socialmedia-ul img {
+        width: 10vw;
+        height: auto;
+    }
+
+    .icon-socialmedia-ul a {
+        cursor:default;
+    }
+
+/*----------------- PHONE-INITIAL -------------------- */
+    .instagram {
+        width: 48vw;
+        height: auto;
+        position: relative;
+        top: -12.5vw;
+        left: 22vw;
+        z-index: 100;
+    }
+
+    .celular {
+        width: 48vw;
+        height: auto;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .twitter, .youtube, .twitch, .tiktok, .work-connect {
+        position: absolute;
+        top: 31.9vw;
+        right: 4vw;
+        z-index: 10;
+    }
+
+/*----------------- PHONE-ACTION -------------------- */
+
+    @keyframes poner {
+        100% { left: 1.5vw; }        
+    }
+
+    @keyframes sacar {
+        100% { left: -100vw; }        
+    }
+
+/*-------------------------------------------- ARTICLE-2 ------------------------------------------------- */
+
+    .article-2 {
+        width: 100%;
+        height: 80vw;
+        background-color: #2C3E50;
+        display: grid;
+        grid-template-areas: 'article-2-left article-2-right';
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+        align-items: center;
+        padding: 0vw 5vw;
+    }
+
+    .article-2-p {
+        grid-area: article-2-right;
+    }
+
+    .article-2-div {
+        grid-area: article-2-left;
+    }
+
+/*----------------- RIGHT ------------------ */
+
+    .article-2-p {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 3vw;
+        font-weight: 400;
+    }
+
+/*----------------- LEFT ------------------ */
+
+    .article-2-div {
+        text-align: center;
+    }
+
+    .article-2-div img {
+        width: 50vw;
+        height: auto;
+    }
+
+    .article-2-div p {
+        color: white;
+        font-size: 2vw;
+        font-weight: 400;
+        width: 95%;
+        margin: auto;
+        margin-top: 2vw;
+    }
+
+/*-------------------------------------------- ARTICLE-3 ------------------------------------------------- */
+
+    .article-3 {
+        width: 100%;
+        height: 160vw;
+        color: black;
+    }
+
+/*----------------- TITLE ------------------ */
+
+    .article-3-title {
+        text-align: center; 
+    }
+
+    .vinculo-proyect {
+        text-decoration: none;
+        color: white;
+    }
+
+    .vinculo-proyect:visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    .article-3-title h4 {
+        font-size: 6vw;
+        font-weight: 700;
+        padding-top: 5vw;
+        padding-bottom: 1vw;
+    }
+
+    .article-3-title p {
+        font-size: 3vw;
+        font-weight: 600;
+    }
+
+    .art3-flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 5vw;
+        flex-wrap: wrap;
+    }
+/*----------------- PROYECTO-1 ------------------ */
+
+    .article-3-p1 {
+        background-color: #2C3E50;
+        border-radius: 1vw;
+        width: 40vw;
+        height: 60vw;
+        text-align: center;
+        color: white;
+        margin-bottom: 8vw;
+    }
+
+    .proyect1-img {
+        width: 30vw;
+        margin-top: 4vw;
+    }
+
+    .article-3-p1 h5 {
+        font-size: 5vw;
+        font-weight: 500;
+        margin-top: 6vw;
+        margin-bottom: 1vw;
+    }
+
+    .article-3-p1 p {
+        font-size: 2vw;
+        font-weight: 500;
+        width: 80%;
+        margin: auto;
+    }
+
+/*----------------- PROYECTO-2 ------------------ */
+
+.article-3-p2 {
+    background-color: #2C3E50;
+    border-radius: 1vw;
+    width: 40vw;
+    height: 60vw;
+    text-align: center;
+    color: white;
+    margin-bottom: 8vw;
+}
+
+.proyect2-img {
+    width: 30vw;
+    margin-top: 4vw;
+}
+
+.article-3-p2 h5 {
+    font-size: 5vw;
+    font-weight: 500;
+    margin-top: 6vw;
+    margin-bottom: 1vw;
+}
+
+.article-3-p2 p {
+    font-size: 2vw;
+    font-weight: 500;
+    width: 80%;
+    margin: auto;
+}
+
+/*----------------- PROYECTO-3 ------------------ */
+
+.article-3-p3 {
+    background-color: #2C3E50;
+    border-radius: 1vw;
+    width: 40vw;
+    height: 60vw;
+    text-align: center;
+    color: white;
+    margin-bottom: 8vw;
+}
+
+.art3-flex-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.proyect3-img {
+    width: 30vw;
+    margin-top: 4vw;
+}
+
+.article-3-p3 h5 {
+    font-size: 5vw;
+    font-weight: 500;
+    margin-top: 6vw;
+    margin-bottom: 1vw;
+}
+
+.article-3-p3 p {
+    font-size: 2vw;
+    font-weight: 500;
+    width: 80%;
+    margin: auto;
+}
+
+/*-------------------------------------------- ARTICLE-4 ------------------------------------------------- */
+
+    .article-4 {
+        width: 100%;
+        height: 90vw;
+        background-color: #2C3E50;
+        display: flex;
+    }
+
+    .contact-container {
+        width: 75%;
+        height: 70vw;
+        background-color: white;
+        border-radius: 3vw;
+        color: black;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-container h4 {
+        font-size: 6vw;
+        font-weight: 600;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    .contact-container p {
+        margin: auto;
+        width: 80%;
+        font-size: 3vw;
+        font-weight: 600;
+        margin-bottom: 3vw;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 0.5vw;
+        margin-bottom: 1vw;
+        color: black;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    .input {
+        width: 50vw;
+        padding: 0vw 0.2vw;
+        text-align: center;
+        margin-bottom: 3vw;
+    }
+
+    .label {
+        font-size: 3vw;
+    }
+
+    .submit {
+        color: black;
+        font-size: 3vw;
+        font-weight: 600;
+        padding: 0.5vw;
+        padding-bottom: 0.3vw;
+        margin-top: 0vw;
+    }
+
+
+/* ----------------------------------------------- FOOTER ------------------------------------------------ */
+    .footer {
+        width: 100%;
+        height: 20vw;
+        background-color: rgba(0, 0, 0, 0.87);
+        text-align: center;
+        color: white;
+    }
+
+    .footer-ul {
+        padding-top: 3.8vw;
+    }
+
+    .footer-ul li {
+        margin-bottom: 3.5vw;
+        font-weight: 300;
+        font-size: 3vw;
+    }
+
+    .volver {
+        font-size: 5vw;
+        text-decoration: none;
+        color: white;
+        padding: 0.5vw 18vw;
+        border-top: 0.1vw solid white;
+        font-weight: 500;
+    }
+
+}
